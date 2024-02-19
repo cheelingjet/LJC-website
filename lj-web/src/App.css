@@ -9,11 +9,20 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
+
+  /* white mode */
+  /* --title-color: hsl(var(--hue), var(--sat), 10%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --container-color: #fff; */
+
+  /* dark mode */
+  --title-color: hsl(var(--hue), var(--sat), 90%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 80%);
+  --text-color: hsl(var(--hue), var(--sat), 60%);
+  --body-color: hsl(var(--hue), var(--sat), 12%);
+  --container-color: #000;
 
   /*========== Font and typography ==========*/
   --body-font: "Inter", sans-serif;
