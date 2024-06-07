@@ -19,7 +19,8 @@ const About = () => {
                 <p className="about_description">
                     I'm a Computer science major with a Mathematics minor at Purdue University pursuing
                     Software Engineering and Machine Intelligence tracks. I've had both Fullstack and 
-                    Frontend roles in projects, but I specialize in Frontend development.
+                    Frontend roles in projects, but I specialize in Frontend development. Click on either
+                    of the above boxes to learn more about my journey with computer science!
                 </p>
 
                 <a download="" href={RESUME} className="button 
