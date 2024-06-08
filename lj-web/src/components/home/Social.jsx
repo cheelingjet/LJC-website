@@ -8,7 +8,7 @@ const Social = () => {
             className="home_social-icon" 
             target="_blank"
         >
-            <i class="uil uil-instagram"></i>
+            <i className="uil uil-instagram"></i>
         </a>
 
 
@@ -17,7 +17,7 @@ const Social = () => {
             className="home_social-icon" 
             target="_blank"
         >
-            <i class="uil uil-github-alt"></i>
+            <i className="uil uil-github-alt"></i>
         </a>
 
     </div>

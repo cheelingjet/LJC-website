@@ -1,0 +1,32 @@
+/* Project.css */
+  .grid_container {
+    display: flex;
+    justify-content: center;
+  } 
+
+  .project {
+    padding: 40px 0;
+  }
+  
+  .section__title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .section__subtitle {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #666;
+  }
+  
+  .project__grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 60px;
+    padding: 0 20px;
+  }
+
+  
