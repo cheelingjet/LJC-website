@@ -21,7 +21,7 @@ const projects = [
   {
     image: dripImg,
     title: 'DripDrop',
-    description: `DripDrop was the Senior Software Engineering project developed by my friends and I (pictured above).
+    description: `DripDrop was the Senior Software Engineering project I developed with my friendgroup (pictured above).
     It is a social media web application focused on daily outfit uploads, user ratings, and
     tournament-style outfit competitions. The demo below is a beta version.`,
     github: 'https://github.com/TaewoooK/dripdrop407/tree/dev',

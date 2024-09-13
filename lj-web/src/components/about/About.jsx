@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.css";
 import AboutImg from "../../assets/about2.jpg"
-import RESUME from "../../assets/RESUME 2024 LJC.pdf"
+import RESUME from "../../assets/Lingjet_Chee_Resume_September24.pdf"
 import Info from './Info';
 
 const About = () => {
@@ -17,10 +17,9 @@ const About = () => {
                 <Info />
 
                 <p className="about_description">
-                    I'm a Computer science major with a Mathematics minor at Purdue University pursuing
-                    Software Engineering and Machine Intelligence tracks. I've had both Fullstack and 
-                    Frontend roles in projects, but I specialize in Frontend development. Click on either
-                    of the above boxes to learn more about my journey with computer science!
+                    {`I'm a recent graduate from Purdue University with a Bachelors in Science in Computer Science and Minor in Mathematics. I've completed Software Engineering and Machine Intelligence degree tracks and have had both Fullstack and Frontend roles in projects.
+
+                    I was born and raised in the Silicon Valley so I've been around technological innovation my whole life. Fun fact about me: I speak Mandarin! Click on either of the above boxes to learn more about me!`}
                 </p>
 
                 <a download="" href={RESUME} className="button 
